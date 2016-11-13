@@ -33,15 +33,15 @@ int main(int argc, char *argv[])
         } else
         if(cmd.compare("fwd")==0)
         {
-            rover->setSpeed(1.0);
+            rover->setRefSpeed(1.0);
         } else
         if(cmd.compare("bkw")==0)
         {
-            rover->setSpeed(-1.0);
+            rover->setRefSpeed(-1.0);
         } else
         if(cmd.compare("stop")==0)
         {
-            rover->setSpeed(0.0);
+            rover->setRefSpeed(0.0);
         }
     }
 }
