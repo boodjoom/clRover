@@ -27,3 +27,6 @@ unix {
 LIBS += -L../RoboBody
 LIBS += -lRoboBody
 }
+
+DISTFILES += \
+    rover.ini
